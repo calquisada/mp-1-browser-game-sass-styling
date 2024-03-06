@@ -31,13 +31,13 @@
         left: 775px;
         font: $fonts;
     }
-    &.answer-box:hover {
-      opacity: 0.5;
-    }
-    &.answer-box {
-      border: 5px solid $primary-color;
-      padding: 10px;
-    }
+      &.answer-box:hover {
+        opacity: 0.5;
+      }
+      &.answer-box {
+        border: 5px solid $primary-color;
+        padding: 10px;
+      }
     #score {
         font-size: 40px;
         color: $primary-color-two;

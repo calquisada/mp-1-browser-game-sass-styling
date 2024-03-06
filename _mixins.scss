@@ -1,0 +1,21 @@
+@import "./variables";
+
+
+@mixin button {
+    margin-right: 20px;
+    margin-top: 250px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font: $fonts;
+  }
+
+  @mixin body {
+    background-color: gray;
+    background-image: url("./Assets/soccerfield.jpg");
+    background-position-y: 1900px;
+    font-weight: $font-weight;
+  }
